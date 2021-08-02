@@ -1,0 +1,51 @@
+¿Cómo fue pensado css cuando se creo?
+
+Tim Bernes-Lee // creador de la www y de html en 1991.
+
+Marc Andreessen // fue quien hizo popular la web // 1994.
+
+Hakon Wium Lie fue quien propuso CHSS (Cascading HTML Style Sheets).
+
+Bert Bos // respondio al primer borrador de CSS y unio fuerzas con Hakon y se presentaron
+en la conf de www en 1995
+
+W3C saca una junta, ya que era de su interés.
+
+en 1996 nace css como una recomendacion de la W3C.
+
+Primeros navegadores compatibles con css3
+-IE3
+-NETSCAPE
+-OPERA
+
+Limitaciones de css y el problema de los elementos flotantes.   
+
+herramientas que nos han ayudado a todos los desarrolladores
+-Arquitecturas
+
+//conceptos fundamentales de css grid 
+
+Grid = Líneas verticales y horizontales.
+
+
+LINE TRACKS CELL AREA
+
+
+PADRE
+-LINES
+-TRACK
+-AREA
+
+HIJO
+-CELL
+
+GUTTERS GRID AXIS GRID ROW GRID ROW GRID COLOMN
+
+PADRE
+-GUTTERS
+-GRID AXIS
+
+HIJO
+-GRID ROW
+-GRID COLOMN
+--GRID AXIS

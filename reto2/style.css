@@ -1,0 +1,133 @@
+@import url('http://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #81ccf1;
+    --yellow: #efc66a;
+    --pink: #d8a6cb;
+    --dark-pink: #c59ece;
+    --purple: #9996cb;
+}
+
+body {
+    font-family: 'Roboto', Sans-serif;
+    background-image: linear-gradient(to right bottom, #db7457, #cd6463, #b8596c, #a05172, #844c72, #7a4e7a, #6e5180, #605484, #5b6097, #516eaa, #3c7cbc, #008acb);
+    height: 100vh;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-template-areas: "card-1 card-2" "card-1 card-3";
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 1rem;
+}
+
+.item1,
+.item2,
+.item3 {
+    height: auto;
+    width: 100%;
+}
+
+.item1 {
+    background-color: red;
+    display: grid;
+    grid-area: card-1;
+    background-image: url(./img/pexels-александр-прокофьев-561463.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 8px 4px 20px #ccc;
+}
+
+.item2 {
+    background-color: blue;
+    display: grid;
+    grid-area: card-2;
+    background-image: url(./img/pexels-pixabay-36717.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 8px 4px 20px #ccc;
+}
+
+.item3 {
+    background-color: yellow;
+    background-image: url(./img/pexels-bruno-scramgnon-585759.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-area: card-3;
+    border-radius: 8px;
+    box-shadow: 8px 4px 20px #ccc;
+}
+
+
+/* container2 */
+
+.container2 {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-template-areas: "card-2 card-3" "card-1 card-1";
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    gap: 1rem;
+    margin-bottom: 50px;
+}
+
+.item4,
+.item5,
+.item6 {
+    height: auto;
+    width: 100%;
+}
+
+.item4 {
+    display: grid;
+    grid-area: card-1;
+    background-image: url(./img/2/pexels-aleksandar-pasaric-1619569.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 8px 4px 20px #ccc;
+}
+
+.item5 {
+    display: grid;
+    grid-area: card-2;
+    background-image: url(./img/2/pexels-bella-white-635279.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 8px 4px 20px #ccc;
+}
+
+.item6 {
+    background-image: url(./img/2/pexels-pixabay-33545.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-area: card-3;
+    border-radius: 8px;
+    box-shadow: 8px 4px 20px #ccc;
+}

@@ -1,0 +1,121 @@
+@import url('https:fonts.googleapis.com/css2?family=Lato&display=swap');
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Lato', sans-serif;
+    width: 550px;
+}
+
+.container {
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+}
+
+.element {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element1 {
+    /* @extend .element; */
+    background: papayawhip;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element2 {
+    /* @extend .element; */
+    background: papayawhip;
+    margin: 60px 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element3 {
+    /* @extend .element; */
+    background: papayawhip;
+    margin: 120px 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element4 {
+    /* @extend .element; */
+    background: pink;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element5 {
+    /* @extend .element; */
+    background: pink;
+    margin: 60px auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element6 {
+    /* @extend .element; */
+    background: pink;
+    margin: 120px auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element7 {
+    /* @extend .element; */
+    background: lightcyan;
+    margin: 0 0 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element8 {
+    /* @extend .element; */
+    background: lightcyan;
+    margin: 60px 0 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element9 {
+    /* @extend .element; */
+    background: lightcyan;
+    margin: 120px 0 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
